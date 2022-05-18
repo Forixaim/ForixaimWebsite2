@@ -9,8 +9,8 @@ const About: NextPage = () =>
 		<div className={styles.container}>
 		<Head>
 			<title>Forixaim</title>
-		<meta name = "description" content = "Who&apos;s Forixaim? Feat. Noya"/>
-		<link rel="icon" href = "/favicon.ico"/>
+			<meta name="description" content="Who's Forixaim? Feat. Noya and gayane"/>
+			<link rel="icon" href="favicon.ico"/>
 		</Head>
 			<header>
 				<Navbar/>

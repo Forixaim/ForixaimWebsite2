@@ -9,8 +9,8 @@ const Contact: NextPage = () =>
 		<div className={styles.container}>
 		<Head>
 			<title>Forixaim</title>
-		<meta name = "description" content = "If you want to see me then you may contact me."/>
-		<link rel="icon" href = "/favicon.ico"/>
+			<meta name = "description" content = "If you want to see me then you may contact me."/>
+			<link rel="icon" href="favicon.ico"/>
 		</Head>
 		<header>
 			<Navbar/>
