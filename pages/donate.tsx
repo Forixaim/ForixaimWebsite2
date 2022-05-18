@@ -10,7 +10,7 @@ const Donate: NextPage = () =>
 		<Head>
 			<title>Forixaim</title>
 			<meta name="description" content="There's no donate button, so get lost."/>
-			<link rel="icon" href="public/favicon.ico"/>
+			<link rel="icon" href="favicon.ico"/>
 		</Head>
 			<header>
 				<Navbar/>

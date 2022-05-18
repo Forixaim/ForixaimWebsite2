@@ -10,7 +10,7 @@ const Contact: NextPage = () =>
 		<Head>
 			<title>Forixaim</title>
 			<meta name = "description" content = "If you want to see me then you may contact me."/>
-			<link rel="icon" href = "public/favicon.ico"/>
+			<link rel="icon" href="favicon.ico"/>
 		</Head>
 		<header>
 			<Navbar/>

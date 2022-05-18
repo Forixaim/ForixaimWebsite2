@@ -10,7 +10,7 @@ const About: NextPage = () =>
 		<Head>
 			<title>Forixaim</title>
 			<meta name="description" content="Who's Forixaim? Feat. Noya and gayane"/>
-			<link rel="icon" href="public/favicon.ico"/>
+			<link rel="icon" href="favicon.ico"/>
 		</Head>
 			<header>
 				<Navbar/>
