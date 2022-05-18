@@ -9,7 +9,7 @@ const Donate: NextPage = () =>
 		<div className={styles.container}>
 		<Head>
 			<title>Forixaim</title>
-		<meta name = "description" content = "Theres no donate button, so get lost."/>
+		<meta name = "description" content = "There's no donate button, so get lost."/>
 		<link rel="icon" href = "/favicon.ico"/>
 		</Head>
 			<header>
