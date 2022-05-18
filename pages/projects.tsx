@@ -12,7 +12,7 @@ const Projects: NextPage = () => {
 			<Head>
 				<title>Forixaim</title>
 				<meta name="description" content="Forixaim's Projects, see my favorite projects here."/>
-				<link rel="icon" href="/favicon.ico"/>
+				<link rel="icon" href="public/favicon.ico"/>
 			</Head>
 			<header>
 				<Navbar/>
