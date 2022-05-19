@@ -28,4 +28,21 @@
 	transform: translate(0,-3px);
 }
 
+.NavIcon {
+	display: block;
+	float: left;
+	padding: 3px;
+	text-decoration: none;
+	font-size: 14pt;
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0);
+	transition-property: transform;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+}
+
+.NavIcon:hover {
+	color: #FFFFFF;
+	transform: translate(0,-3px);
+}
 /*# sourceMappingURL=NavBar.module.css.map */
