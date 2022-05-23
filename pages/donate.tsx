@@ -7,21 +7,21 @@ const Donate: NextPage = () =>
 {
 	return (
 		<div className={styles.container}>
-		<Head>
-			<title>Forixaim</title>
-			<meta name="description" content="There's no donate button, so get lost."/>
-			<link rel="icon" href="favicon.ico"/>
-		</Head>
+			<Head>
+				<title>Forixaim</title>
+				<meta name="description" content="There's no donate button, so get lost."/>
+				<link rel="icon" href="favicon.ico"/>
+			</Head>
 			<header>
 				<Navbar/>
-		</header>
-		<main className={styles.main}>
+			</header>
+			<main className={styles.main}>
 				<h1 className={styles.title}>Donate</h1>
 				<p className={styles.description}>There is still no donate button. New website, no donate.</p>
-		</main>
-		<footer>
-			<p>Website by Forixaim. Powered by Next.js!</p>
-		</footer>
+			</main>
+			<footer>
+				<p>Website by Forixaim. Powered by Next.js!</p>
+			</footer>
 		</div>
 	)
 }

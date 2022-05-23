@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import tsLogo from '../public/tslogo.svg'
 import jsLogo from '../public/jslogo.svg'
+import clogo from '../public/c-logo.svg'
+import cpplogo from '../public/cpp-logo.svg'
 
 const About: NextPage = () =>
 {
@@ -19,7 +21,8 @@ const About: NextPage = () =>
 			<main className={styles.main}>
 				<h1 className={styles.title}>About Forixaim</h1>
 				<p className={styles.description}>Hey! I am Matthew, a C++ programmer, I am the CTO of 2022-2023 Newport High School Programming Club. Fresh out of the pandemic, I was thrown into some hard times, but perserverd and broke free.</p>
-				<p className={styles.description}><Image src={tsLogo} width={40} height={40} /><Image src={jsLogo} width={40} height={40} />  I know basic JavaScript and TypeScript, but I often use react with Next.js</p>
+				<p className={styles.description}><Image src={tsLogo} width={40} height={40} /><Image src={jsLogo} width={40} height={40} />I know basic JavaScript and TypeScript, but I often use React with Next.js so it's back to basic HTML and me being garbage with both scripts.</p>
+				<p className={styles.description}><Image src={clogo} width={40} height={40} /><Image src={cpplogo} width={40} height={40} />I have 1.7 years in experience with C++ and I know how to use pointers and manual memory management. I've been starting to walk into C++ Standard Library and use third party frameworks as well.</p>
 			</main>
 			<footer>
 				<p>Website by Forixaim. Powered by Next.js!</p>
