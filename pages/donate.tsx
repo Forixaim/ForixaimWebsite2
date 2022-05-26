@@ -20,7 +20,7 @@ const Donate: NextPage = () =>
 				<h1 className={styles.title}>Donate/Pledge</h1>
 				<p className={styles.description}>Pledges will be happily accepted, as small pledges like these will keep the website running for longer. You can pledge with Patreon.</p>
 				<div style={{display: "flex", justifyContent: "center",}}>
-					<Link href="https://www.patreon.com/bePatron?u=47045722"><a data-patreon-widget-type="become-patron-button" className={styles.patreon}>Pledge with Patreon</a></Link>
+					<Link href="https://www.patreon.com/bePatron?u=47045722"><a data-patreon-widget-type="become-patron-button" className={styles.patreon}>Become a Patron</a></Link>
 				</div>
 				
 				
