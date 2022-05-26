@@ -19,14 +19,10 @@ const Home: NextPage = () => {
 			</header>
 			<main className={styles.main}>
 				<div>
-					<div style={{
-          display: "flex",
-          justifyContent: "center",
-        }}>
+					<div style={{display: "flex", justifyContent: "center",}}>
 						<Image src={Forixaim} width={1000}/>
 					</div>
 				</div>
-				
 				<p className={styles.description}>Hello there I am Forixaim, the C++ guy. This new website will replace my old website. I don&apos;t know how to use TypeScript, so help would be awesome! Alright, use the navigation bar above to navigate to other aspects of the page, there we can have some fun.</p>
 			</main>
 			<footer>

@@ -6,7 +6,7 @@
 .main 
 {
 	min-height: 100vh;
-	padding: 10px;
+	margin: 20%;
 	flex: 1;
 	display: inline;
 	flex-direction: column;
@@ -61,8 +61,30 @@
 
 .discord
 {
-	display: block;
 	float: right;
+	margin: 20px;
+}
+
+.patreon
+{
+	font-size: 28pt;
+	text-decoration: none;
+	color: white;
+	padding: 1%;
+	background-color: teal;
+	border-radius: 9px;
+	border-color: black;
+	border-style: solid;
+	text-shadow: 0 0 3px rgba(255, 255, 255, 0);
+	transition-property: text-shadow;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+.patreon:hover
+{
+	color: white;
+	text-shadow: 0 0 9px rgba(255, 255, 255, 1);
 }
 
 .logo

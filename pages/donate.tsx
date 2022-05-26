@@ -1,5 +1,6 @@
 ﻿import type { NextPage } from 'next'
 import Head from 'next/head'
+import Link from 'next/link'
 import Navbar from '../components/navbar'
 import styles from '../styles/Home.module.css'
 
@@ -16,8 +17,13 @@ const Donate: NextPage = () =>
 				<Navbar/>
 			</header>
 			<main className={styles.main}>
-				<h1 className={styles.title}>Donate</h1>
-				<p className={styles.description}>There is still no donate button. New website, no donate.</p>
+				<h1 className={styles.title}>Donate/Pledge</h1>
+				<p className={styles.description}>Pledges will be happily accepted, as small pledges like these will keep the website running for longer. You can pledge with Patreon.</p>
+				<div style={{display: "flex", justifyContent: "center",}}>
+					<Link href="https://www.patreon.com/bePatron?u=47045722"><a data-patreon-widget-type="become-patron-button" className={styles.patreon}>Pledge with Patreon</a></Link>
+				</div>
+				
+				
 			</main>
 			<footer>
 				<p>Website by Forixaim. Powered by Next.js!</p>
