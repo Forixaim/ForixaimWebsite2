@@ -22,8 +22,7 @@ const Donate: NextPage = () =>
 				<div style={{display: "flex", justifyContent: "center",}}>
 					<Link href="https://www.patreon.com/bePatron?u=47045722"><a data-patreon-widget-type="become-patron-button" className={styles.patreon}>Become a Patron</a></Link>
 				</div>
-				
-				
+				<p className={styles.description}>Additionally, you can donate with Ko-Fi if you are more interested in one-time donations.</p>
 			</main>
 			<footer>
 				<p>Website by Forixaim. Powered by Next.js!</p>

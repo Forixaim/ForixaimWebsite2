@@ -16,7 +16,7 @@ const Contact: NextPage = () =>
 				<Navbar />
 			</header>
 			<main className={styles.main}>
-			<	div className={styles.discord}>
+				<div className={styles.discord}>
 					<iframe src="https://discord.com/widget?id=941463674361622578&theme=dark" width="350" height="500"  frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" className={styles.discord}/>
 				</div>
 				<div className={styles.content}>
