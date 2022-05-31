@@ -14,6 +14,7 @@ const Navbar = () => {
 				<Link href="contact"><a className={styles.NavLink}>Contact</a></Link>
 				<Link href="donate"><a className={styles.NavLink}>Donate</a></Link>
 				<Link href="about"><a className={styles.NavLink}>About</a></Link>
+				<Link href="resume"><a className={styles.Login}>Résumé</a></Link>
 			</div>
 		</nav>
 	)

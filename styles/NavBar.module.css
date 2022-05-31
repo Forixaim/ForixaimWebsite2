@@ -59,4 +59,10 @@
 	transition-timing-function: ease-in-out;
 	transition-duration: 0.2s;
 }
+
+.Login:hover
+{
+	color: #FFFFFF;
+	transform: translate(0,-3px);
+}
 /*# sourceMappingURL=NavBar.module.css.map */
