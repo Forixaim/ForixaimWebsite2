@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Navbar from '../components/navbar'
+import NavBar from '../components/navbar'
 import styles from '../styles/Home.module.css'
 
 const Resume: NextPage = () =>
@@ -13,7 +13,7 @@ const Resume: NextPage = () =>
 				<link rel="icon" href="favicon.ico"/>
 			</Head>
 			<header>
-				<Navbar />
+				<NavBar />
 			</header>
 			<main className={styles.main}>
 				<div className={styles.discord}>

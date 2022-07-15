@@ -1,31 +1,35 @@
 ﻿import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import Navbar from '../components/navbar'
+import NavBar from '../components/navbar'
 import styles from '../styles/Home.module.css'
 
 const Donate: NextPage = () =>
 {
 	return (
-		<div className={styles.container}>
+		<div className="inline">
 			<Head>
 				<title>Forixaim</title>
 				<meta name="description" content="There's no donate button, so get lost."/>
 				<link rel="icon" href="favicon.ico"/>
 			</Head>
 			<header>
-				<Navbar/>
+				<NavBar/>
 			</header>
-			<main className={styles.main}>
-				<h1 className={styles.title}>Donate/Pledge</h1>
-				<p className={styles.description}>Pledges will be happily accepted, as small pledges like these will keep the website running for longer. You can pledge with Patreon.</p>
-				<div style={{display: "flex", justifyContent: "center",}}>
+			<main className="inline">
+				<div className={styles.titleBG}>
+					<h1 className={styles.titleText}>Donate/Pledge</h1>
+				</div>
+				<p className="text-center text-3xl font-semibold mx-5">Pledges will be happily accepted, as small pledges like these will keep the website running for longer. You can pledge with Patreon.</p>
+				<div className="m-4 flex items-center justify-center">
 					<Link href="https://www.patreon.com/bePatron?u=47045722"><a data-patreon-widget-type="become-patron-button" className={styles.patreon}>Become a Patron</a></Link>
 				</div>
-				<p className={styles.description}>Additionally, you can donate with Ko-Fi if you are more interested in one-time donations.</p>
+				<p className="text-center text-3xl font-semibold mx-5">Additionally, you can donate with Ko-Fi if you are more interested in one-time donations.</p>
+				<div className="m-4 flex items-center justify-center">
+					<Link href="https://ko-fi.com/forixaimcs"><a className={styles.patreon}>Donate via Ko-Fi</a></Link>
+				</div>
 			</main>
 			<footer>
-				<p>Website by Forixaim. Powered by Next.js!</p>
 			</footer>
 		</div>
 	)

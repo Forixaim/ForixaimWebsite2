@@ -5,11 +5,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import ForiIcon from '../public/Forixaim-Icon.svg'
 
-const Navbar = () => {
+const NavBar = () => {
 	return (
-		<nav className={styles.NavBarColor}>
+		<nav className="block overflow-hidden m-0 p-0 bg-slate-900 shadow-md ">
 			<div>
-				<Link href="/"><a className={styles.NavIcon}><Image src={ForiIcon} width={50} height={50}/></a></Link>
+				<Link href="/"><a className={styles.NavLink}>Home</a></Link>
 				<Link href="projects"><a className={styles.NavLink}>Projects</a></Link>
 				<Link href="contact"><a className={styles.NavLink}>Contact</a></Link>
 				<Link href="donate"><a className={styles.NavLink}>Donate</a></Link>
@@ -19,4 +19,4 @@ const Navbar = () => {
 		</nav>
 	)
 }
-export default Navbar
+export default NavBar
