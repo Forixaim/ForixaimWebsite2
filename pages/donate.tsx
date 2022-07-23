@@ -4,6 +4,8 @@ import Link from 'next/link'
 import FooterMessage from '../components/footermessage'
 import NavBar from '../components/navbar'
 import styles from '../styles/Home.module.css'
+import DonateImg from '../public/Donate.svg'
+import Image from 'next/image'
 
 const Donate: NextPage = () =>
 {
@@ -19,7 +21,7 @@ const Donate: NextPage = () =>
 			</header>
 			<main className="inline">
 				<div className={styles.titleBG}>
-					<h1 className={styles.titleText}>Donate/Pledge</h1>
+					<Image src={DonateImg} width={1000}/>
 				</div>
 				<p className="text-center text-3xl font-semibold mx-5">Pledges will be happily accepted, as small pledges like these will keep the website running for longer. You can pledge with Patreon.</p>
 				<div className="m-4 flex items-center justify-center">

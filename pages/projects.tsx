@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import NavBar from '../components/navbar'
 import Link from 'next/link'
 import FooterMessage from '../components/footermessage'
+import Project from '../public/Projects.svg'
 
 const Projects: NextPage = () => {
 	return (
@@ -19,7 +20,7 @@ const Projects: NextPage = () => {
 			</header>
 			<main className="inline">
 				<div className={styles.titleBG}>
-					<h1 className={styles.titleText}>Projects</h1>
+					<Image src={Project} width={1000}/>
 				</div>
 				<article className="mx-4">
 					<h1 className="text-6xl text-center font-semibold mb-4">Project: Omneria</h1>

@@ -9,6 +9,7 @@ import clogo from '../public/c-logo.svg'
 import cpplogo from '../public/cpp-logo.svg'
 import uelogo from '../public/unreal-logo.svg'
 import FooterMessage from '../components/footermessage'
+import AboutMe from '../public/AboutMe.svg'
 
 const About: NextPage = () =>
 {
@@ -22,7 +23,7 @@ const About: NextPage = () =>
 			<header><NavBar /></header>
 			<main className="inline">
 				<div className={styles.titleBG}>
-					<h1 className={styles.titleText}>About Forixaim</h1>
+					<Image src={AboutMe} width={1000}/>
 				</div>
 				<p className="text-center text-4xl font-semibold mx-5">Hey! I am Matthew, a C++ programmer, I am the CTO of 2022-2023 Newport High School Programming Club. Fresh out of the pandemic, I was thrown into some hard times, but perserverd and broke free.</p>
 				<p className="text-center text-4xl font-semibold mx-5">Here&apos;s my overall experience with some languages:</p>
