@@ -1,6 +1,7 @@
 ﻿import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
+import FooterMessage from '../components/footermessage'
 import NavBar from '../components/navbar'
 import styles from '../styles/Home.module.css'
 
@@ -30,6 +31,7 @@ const Donate: NextPage = () =>
 				</div>
 			</main>
 			<footer>
+				<FooterMessage/>
 			</footer>
 		</div>
 	)

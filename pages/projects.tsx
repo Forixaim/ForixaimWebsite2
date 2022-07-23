@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/navbar'
 import Link from 'next/link'
+import FooterMessage from '../components/footermessage'
 
 const Projects: NextPage = () => {
 	return (
@@ -38,7 +39,7 @@ const Projects: NextPage = () => {
 				
 			</main>
 			<footer>
-				
+				<FooterMessage/>
 			</footer>
 		</div>
 	)

@@ -8,6 +8,7 @@ import jsLogo from '../public/jslogo.svg'
 import clogo from '../public/c-logo.svg'
 import cpplogo from '../public/cpp-logo.svg'
 import uelogo from '../public/unreal-logo.svg'
+import FooterMessage from '../components/footermessage'
 
 const About: NextPage = () =>
 {
@@ -54,7 +55,7 @@ const About: NextPage = () =>
 				
 			</main>
 			<footer>
-				
+				<FooterMessage/>
 			</footer>
 		</div>
 	)
