@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 				<NavBar/>
 			</header>
 			<main className="inline">
-				<div>
+				<div className="overflow-hidden h-screen">
 					<div>
 						<div className={styles.titleImage}>
 							<Image src={Forixaim} width={1000}/>

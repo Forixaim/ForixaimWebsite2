@@ -23,14 +23,17 @@ const Donate: NextPage = () =>
 				<div className={styles.titleBG}>
 					<Image src={DonateImg} width={1000}/>
 				</div>
-				<p className="text-center text-3xl font-semibold mx-5">Pledges will be happily accepted, as small pledges like these will keep the website running for longer. You can pledge with Patreon.</p>
-				<div className="m-4 flex items-center justify-center">
-					<Link href="https://www.patreon.com/bePatron?u=47045722"><a data-patreon-widget-type="become-patron-button" className={styles.patreon}>Become a Patron</a></Link>
+				<div className="overflow-hidden h-screen">
+					<p className="text-center text-3xl font-semibold mx-5">Pledges will be happily accepted, as small pledges like these will keep the website running for longer. You can pledge with Patreon.</p>
+					<div className="m-4 flex items-center justify-center">
+						<Link href="https://www.patreon.com/bePatron?u=47045722"><a data-patreon-widget-type="become-patron-button" className={styles.patreon}>Become a Patron</a></Link>
+					</div>
+					<p className="text-center text-3xl font-semibold mx-5">Additionally, you can donate with Ko-Fi if you are more interested in one-time donations.</p>
+					<div className="m-4 flex items-center justify-center">
+						<Link href="https://ko-fi.com/forixaimcs"><a className={styles.patreon}>Donate via Ko-Fi</a></Link>
+					</div>
 				</div>
-				<p className="text-center text-3xl font-semibold mx-5">Additionally, you can donate with Ko-Fi if you are more interested in one-time donations.</p>
-				<div className="m-4 flex items-center justify-center">
-					<Link href="https://ko-fi.com/forixaimcs"><a className={styles.patreon}>Donate via Ko-Fi</a></Link>
-				</div>
+				
 			</main>
 			<footer>
 				<FooterMessage/>
