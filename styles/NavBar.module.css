@@ -1,6 +1,6 @@
 .NavLink
 {
-	@apply text-lg font-semibold block m-0 mx-2 p-2 float-left text-white border-b-slate-900 border-b-4 hover:border-teal-900 transition-all hover:text-white active:border-b-green-200 no-underline;
+	@apply text-lg font-semibold block m-0 mx-2 p-2 float-left text-white border-b-slate-900 border-b-4 hover:border-teal-900 transition-all hover:text-white active:border-b-green-200 no-underline cursor-pointer;
 }
 
 .NavIcon {

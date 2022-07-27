@@ -24,8 +24,11 @@ const Home: NextPage = () => {
 							<Image src={Forixaim} width={1000}/>
 						</div>
 					</div>
-					<p className="text-center text-3xl font-semibold">Hey, I&apos;m Matthew. I&apos;m a gamer and a up and coming game developer who wants to make his story come to life!</p>
-					<p className="text-center text-3xl font-semibold">This is the homepage for the new website and there are a lot of new features I plan to add. This will be a fun journey throughout.</p>
+					<div className="m-4 align-middle flex justify-center">
+						<p className="text-center text-3xl font-semibold">Hey, I&apos;m Matthew. I&apos;m a gamer and a up and coming game developer who wants to make his story come to life!</p>
+						<p className="text-center text-3xl font-semibold">This is the homepage for the new website and there are a lot of new features I plan to add. This will be a fun journey throughout.</p>
+					</div>
+					
 				</div>
 			</main>
 			<footer>
@@ -34,5 +37,7 @@ const Home: NextPage = () => {
 		</div>
 	)
 }
+
+
 
 export default Home
